@@ -1,0 +1,31 @@
+Create a Supplier->
+Method: POST
+URL: http://localhost:8080/api/supplier
+
+
+Get Supplier by ID->
+Method: GET
+URL: http://localhost:8080/api/supplier/{id}
+
+
+Update Supplier->
+Method: PUT
+URL: http://localhost:8080/api/supplier/{id}
+
+.....................................................
+{
+    "companyName": "Updated Manufacturing",
+    "website": "http://www.updatedmanufacturing.com",
+    "location": "Delhi",
+    "natureOfBusiness": "MEDIUM_SCALE",
+    "manufacturingProcesses": ["MOULDING", "COATING"]
+}
+......................................................
+
+
+Delete Supplier->
+Method: DELETE
+URL: http://localhost:8080/api/supplier/{id}
+
+
+
